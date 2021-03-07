@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+title = "Dvere"
+theme = "dream"
