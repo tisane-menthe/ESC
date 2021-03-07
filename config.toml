@@ -3,3 +3,65 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Dvere"
 theme = "hugo-theme-dream"
+
+[Params]
+background = "#fff"
+  backgroundImage = "/me/background.jpg"
+  linkColor = "rgba(11, 255, 212, 0.6)"
+
+  # dark mode
+  # defaultDark = true
+  #backgroundDark = "black"
+  #backgroundImageDark = "/me/background-dark.jpg"
+  #darkLinkColor = "darkseagreen"
+  # darkNav = true
+  # dark404 = true
+
+  images = [""]
+
+  author = "ESC"
+  description = "ESC Dvere"
+  #avatar = "/me/yy.jpg"
+  headerTitle = "Dvere :::: blog"
+  motto = "here you can find writings from our volunteers"
+  # footerBottomText = ""
+
+  #rss = true
+
+  #utterancesRepo = "g1eny0ung/g1eny0ung.github.io"
+
+  # valine = true
+  # LEANCLOUD_APP_ID = ""
+  # LEANCLOUD_APP_KEY = ""
+
+  #email = "g1enyy0ung@gmail.com"
+  #twitter = "g1eny0ung"
+  #facebook = "g1eny0ung"
+  #instagram = "g1enyy0ung"
+  # mastodon = ""
+  #linkedin = "钺杨g1eny0ung"
+  #github = "g1eny0ung"
+  #stackoverflow = "5676489/g1eny0ung"
+  #codepen = "g1eny0ung"
+
+  siteStartYear = 2021
+
+  favicon = "/favicon.ico"
+
+  highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  highlightjsExtraLanguages = ["ocaml"]
+  highlightjsTheme = "gruvbox-light"
+  highlightjsThemeDark = "gruvbox-dark"
+
+  # search
+  enableSearch = true
+
+  # options
+  showSummaryCoverInPost = true
+  # hasTwitterEmbed = true
+  # reversePostAndAside = true
+
+  [params.advanced]
+    customCSS = ["css/custom.css"]
+    customJS = []
